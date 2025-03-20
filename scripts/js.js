@@ -18,6 +18,12 @@ if (!localStorage.getItem("projects")) {
           githublink: "https://aduradu-chinazom.github.io/ECommerce/",
           image: "image/qwer.jpg",
       },
+      {
+        id: "4",
+        name: "Task Manager",
+        githublink: "https://aduradu-chinazom.github.io/ECommerce/",
+        image: "image/landing_1.jpg",
+    },
   ];
 
   localStorage.setItem("projects", JSON.stringify(predefinedProjects));
