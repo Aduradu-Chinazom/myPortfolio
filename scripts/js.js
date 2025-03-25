@@ -2,28 +2,28 @@ if (!localStorage.getItem("projects")) {
   const predefinedProjects = [
       {
         id: "1",
-        name: "Vuna Cares",
-        githublink: "https://aduradu-chinazom.github.io/vuna-cares/",
-        image: "image/blockB.jpeg",
-      },
-      {
-        id: "2",
         name: "Azkoe",
         githublink: "https://aduradu-chinazom.github.io/azkoe/",
         image: "image/oil_site.jpg",
       },
       {
-          id: "3",
+          id: "2",
           name: "Easy Store",
           githublink: "https://aduradu-chinazom.github.io/ECommerce/",
           image: "image/qwer.jpg",
       },
       {
-        id: "4",
+        id: "3",
         name: "Task Manager",
-        githublink: "https://aduradu-chinazom.github.io/ECommerce/",
+        githublink: "https://aduradu-chinazom.github.io/IT-project/",
         image: "image/landing_1.jpg",
-    },
+      },
+      {
+        id: "4",
+        name: "Truth or Dare",
+        githublink: "https://aduradu-chinazom.github.io/truth_dare/",
+        image: "image/truth_dare.png",
+      },
   ];
 
   localStorage.setItem("projects", JSON.stringify(predefinedProjects));
